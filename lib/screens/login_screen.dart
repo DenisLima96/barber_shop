@@ -1,3 +1,4 @@
+import 'package:barber_shop/screens/sign_up_screen.dart';
 import 'package:barber_shop/values/custom_colors.dart';
 import 'package:flutter/material.dart';
 
@@ -132,7 +133,14 @@ class _LoginScreenState extends State<LoginScreen> {
                           style: TextStyle(fontSize: 12),
                         ),
                         ElevatedButton(
-                          onPressed: () {},
+                          onPressed: () {
+                            Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                builder: (context) => SignUpScreen(),
+                              ),
+                            );
+                          },
                           style: ElevatedButton.styleFrom(
                             foregroundColor: Colors.black,
                             backgroundColor: Colors.white,

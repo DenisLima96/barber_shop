@@ -24,7 +24,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
             gradient: LinearGradient(
               begin: Alignment.topCenter,
               end: Alignment.bottomCenter,
-              colors: [Colors.grey, Color.fromARGB(255, 66, 66, 66)],
+              colors: [Colors.grey, Color.fromARGB(255, 255, 252, 252)],
             ),
           ),
           child: SingleChildScrollView(

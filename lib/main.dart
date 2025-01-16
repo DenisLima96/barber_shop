@@ -1,6 +1,6 @@
-import 'package:barber_shop/screens/home.dart';
-import 'package:barber_shop/screens/login_screen.dart';
-import 'package:barber_shop/screens/sign_up_screen.dart';
+import 'package:barber_shop/pages/home.dart';
+import 'package:barber_shop/pages/login_screen.dart';
+import 'package:barber_shop/pages/sign_up_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {

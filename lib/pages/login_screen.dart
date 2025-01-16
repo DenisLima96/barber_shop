@@ -1,4 +1,4 @@
-import 'package:barber_shop/screens/sign_up_screen.dart';
+import 'package:barber_shop/pages/sign_up_screen.dart';
 import 'package:barber_shop/values/custom_colors.dart';
 import 'package:flutter/material.dart';
 
@@ -37,7 +37,7 @@ class _LoginScreenState extends State<LoginScreen> {
                     bottom: 25,
                   )),
                   Text(
-                    "Entrar",
+                    "",
                     textAlign: TextAlign.center,
                     style: TextStyle(
                       color: Colors.white,
